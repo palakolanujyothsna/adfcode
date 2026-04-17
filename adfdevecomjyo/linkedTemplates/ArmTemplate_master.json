@@ -406,9 +406,6 @@
 					"SqlServer3_password": {
 						"value": "[parameters('SqlServer3_password')]"
 					},
-					"SqlServer4_password": {
-						"value": "[parameters('SqlServer4_password')]"
-					},
 					"AzureDataLakeStorage4_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage4_properties_typeProperties_url')]"
 					},
@@ -501,15 +498,6 @@
 					},
 					"SqlServer3_properties_typeProperties_userName": {
 						"value": "[parameters('SqlServer3_properties_typeProperties_userName')]"
-					},
-					"SqlServer4_properties_typeProperties_server": {
-						"value": "[parameters('SqlServer4_properties_typeProperties_server')]"
-					},
-					"SqlServer4_properties_typeProperties_database": {
-						"value": "[parameters('SqlServer4_properties_typeProperties_database')]"
-					},
-					"SqlServer4_properties_typeProperties_userName": {
-						"value": "[parameters('SqlServer4_properties_typeProperties_userName')]"
 					}
 				}
 			},
@@ -531,11 +519,23 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"SqlServer4_password": {
+						"value": "[parameters('SqlServer4_password')]"
+					},
 					"SqlServer5_password": {
 						"value": "[parameters('SqlServer5_password')]"
 					},
 					"SqlServer6_password": {
 						"value": "[parameters('SqlServer6_password')]"
+					},
+					"SqlServer4_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer4_properties_typeProperties_server')]"
+					},
+					"SqlServer4_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer4_properties_typeProperties_database')]"
+					},
+					"SqlServer4_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer4_properties_typeProperties_userName')]"
 					},
 					"SqlServer5_properties_typeProperties_server": {
 						"value": "[parameters('SqlServer5_properties_typeProperties_server')]"
