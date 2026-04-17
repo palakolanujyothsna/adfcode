@@ -1,0 +1,9 @@
+{
+	"name": "adfdevecomjyo",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b51327a-5910-4072-bcfa-180162a93851",
+		"tenantId": "a11f70a5-4645-486b-9862-d08798cd4e8f"
+	}
+}

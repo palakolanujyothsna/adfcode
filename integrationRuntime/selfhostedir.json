@@ -1,0 +1,7 @@
+{
+	"name": "selfhostedir",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "To migrate data from sql to adls gen2"
+	}
+}
