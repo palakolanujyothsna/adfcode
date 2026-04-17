@@ -1,0 +1,216 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevecomjyo"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_PARQ_accountKey": {
+			"value": ""
+		},
+		"LS_ASSIGNMENT_password": {
+			"value": ""
+		},
+		"LS_BLOB_EXCEL_connectionString": {
+			"value": ""
+		},
+		"LS_COPY_DATA_password": {
+			"value": ""
+		},
+		"LS_CPY_INC_DATA_password": {
+			"value": ""
+		},
+		"LS_ONPREM_SQL_DW_password": {
+			"value": ""
+		},
+		"LS_PROJECT_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_Parent_SQLServer_DW_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_password": {
+			"value": ""
+		},
+		"LS_SQL_LKPWATERMRK_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"SqlServer5_password": {
+			"value": ""
+		},
+		"SqlServer6_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net/"
+		},
+		"LS_ADLS_PARQ_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net"
+		},
+		"LS_ASSIGNMENT_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_ASSIGNMENT_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"LS_ASSIGNMENT_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_COPY_DATA_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_COPY_DATA_properties_typeProperties_database": {
+			"value": "retailDW"
+		},
+		"LS_COPY_DATA_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_CPY_INC_DATA_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_CPY_INC_DATA_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_CPY_INC_DATA_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_ONPREM_SQL_DW_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_ONPREM_SQL_DW_properties_typeProperties_database": {
+			"value": "retailDW"
+		},
+		"LS_ONPREM_SQL_DW_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_PROJECT_OUTPUT_properties_typeProperties_url": {
+			"value": "https://adlsdevecomjyo.dfs.core.windows.net/"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_database": {
+			"value": "retailDW"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"LS_SQL_LKPWATERMRK_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQL_LKPWATERMRK_properties_typeProperties_database": {
+			"value": "retailDW"
+		},
+		"LS_SQL_LKPWATERMRK_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"SqlServer5_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer5_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer5_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		},
+		"SqlServer6_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"SqlServer6_properties_typeProperties_database": {
+			"value": "Sales"
+		},
+		"SqlServer6_properties_typeProperties_userName": {
+			"value": "sqladfmigration"
+		}
+	}
+}
